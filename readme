@@ -1,0 +1,21 @@
+For this project I would like to implement a website to user register an email address and validate them.
+
+Users should be able to:
+
+- Add their email and submit the form
+- See a success message with their email after successfully submitting the form
+- See form validation messages if:
+  - The field is left empty
+  - The email address is not formatted correctly
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+The tecnologies that I'll use for this project are:
+- HTML5
+- CSS3
+- SASS
+- JAVASCRIPT
+
+This project design I got from Front End mentor website.
+
+Reference: https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv

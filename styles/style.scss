@@ -1,0 +1,56 @@
+// COLOR VARIABLES //
+$Tomato: hsl(4, 100%, 67%);
+$DarkSlateGrey: hsl(234, 29%, 20%);
+$CharcoalGrey: hsl(235, 18%, 26%);
+$background-color: hsl(235, 18%, 26%);
+$Grey: hsl(231, 7%, 60%);
+$White: #f0f0f0;
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    background-color: $background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#container{
+    background-color: $White;
+    width: 650px;
+    height: 450px;
+}
+
+div#container-right-side{
+    img{
+        height: 28.25em;
+        padding: 15px;
+    }
+}
+
+div#container-left-side{
+    height: 100%;
+    padding: 15px 15px 15px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    h1#title{
+        font-size: 48px;
+    }
+}
