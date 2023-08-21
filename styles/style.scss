@@ -52,5 +52,14 @@ div#container-left-side{
 
     h1#title{
         font-size: 48px;
+        margin: 0.35em 0 0.35em 0;
+    }
+    ul.main-list{
+        list-style-image: url('../images/icon-list.svg');
+        list-style-position: inside;
+    }
+
+    ul.main-list li {
+        line-height: 1.25;
     }
 }
