@@ -6,7 +6,7 @@ $background-color: hsl(235, 18%, 26%);
 $Grey: hsl(231, 7%, 60%);
 $White: #f0f0f0;
 
-
+// Clear all styles in page //
 *{
     margin: 0px;
     padding: 0px;
@@ -14,6 +14,7 @@ $White: #f0f0f0;
     font-size: 16px;
 }
 
+// Background standard style //
 body{
     background-color: $background-color;
     display: flex;
@@ -29,19 +30,23 @@ body{
     align-items: center;
 }
 
+// Main container //
 div#container{
     background-color: $White;
-    width: 650px;
-    height: 450px;
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
 }
 
+// Container with the illustration on right side //
 div#container-right-side{
     img{
-        height: 28.25em;
-        padding: 15px;
+        height: 31.5em;
+        padding: 0.9375em 0.9375em 0.9375em 0em;
     }
 }
 
+// Container with bullets, title and email content on left side//
 div#container-left-side{
     height: 100%;
     padding: 15px 15px 15px 30px;
@@ -53,13 +58,22 @@ div#container-left-side{
     h1#title{
         font-size: 48px;
         margin: 0.35em 0 0.35em 0;
+
+
     }
     ul.main-list{
-        list-style-image: url('../images/icon-list.svg');
-        list-style-position: inside;
+        list-style: none;
+        width: 100%;
+
+        div.li-alignment-center{
+            display: flex;
+            align-items: center;
+            padding-bottom: 0.9375em;
+        }
+
+        img{
+            padding-right: 0.5em;
+        }
     }
 
-    ul.main-list li {
-        line-height: 1.25;
-    }
 }
