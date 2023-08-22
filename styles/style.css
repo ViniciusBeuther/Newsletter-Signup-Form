@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Poppins&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -24,11 +26,12 @@ div#container {
   background-color: #f0f0f0;
   width: 700px;
   height: 500px;
-  border-radius: 15px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 39px -13px rgb(51, 51, 51);
 }
 
 div#container-right-side img {
-  height: 31.5em;
+  height: 30.5em;
   padding: 0.9375em 0.9375em 0.9375em 0em;
 }
 
@@ -41,7 +44,7 @@ div#container-left-side {
   flex-direction: column;
 }
 div#container-left-side h1#title {
-  font-size: 48px;
+  font-size: 32px;
   margin: 0.35em 0 0.35em 0;
 }
 div#container-left-side ul.main-list {
@@ -55,4 +58,40 @@ div#container-left-side ul.main-list div.li-alignment-center {
 }
 div#container-left-side ul.main-list img {
   padding-right: 0.5em;
+}
+
+div#email-area p {
+  padding: 0.9375em 0em 0.375em 0em;
+}
+div#email-area input {
+  width: 95%;
+  outline: none;
+  padding: 0.4375em;
+  margin-bottom: 1em;
+}
+div#email-area #submit-email-btn {
+  padding: 1em;
+  width: 95%;
+  font-weight: bold;
+  margin: auto;
+  color: #f0f0f0;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 5px;
+  border: none;
+}
+div#email-area #submit-email-btn:hover {
+  box-shadow: 10px 10px 39px -13px rgba(0, 0, 0, 0.75);
+  background: linear-gradient(160deg, rgb(255, 82, 123) 35%, rgb(255, 105, 62) 77%);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  div#container {
+    width: 90%;
+    height: auto;
+    margin: 10px;
+  }
+  div#container-right-side img {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
